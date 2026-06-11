@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Agro Forte & Sustentável</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Agro<span>Forte</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#impacto">Nosso Impacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h2>O Futuro é Agro, Forte e Verde</h2>
+            <p>Produzir em alta escala respeitando os limites da natureza. Descubra como equilibramos a produtividade com a preservação ambiental.</p>
+            <button class="btn" onclick="mensagemBoasVindas()">Saber Mais</button>
+        </div>
+    </section>
+
+    <section class="container" id="pilares">
+        <h2 class="section-title">O Equilíbrio Perfeito</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Produtividade Forte</h3>
+                <p>Uso de tecnologia de ponta, maquinário bioeficiente e inteligência artificial para maximizar a colheita sem expandir desordenadamente a área cultivada.</p>
+            </div>
+            <div class="card">
+                <h3>Sustentabilidade Plena</h3>
+                <p>Práticas de rotação de culturas, manejo integrado de pragas e adubação orgânica que mantêm o solo vivo e reduzem o impacto ambientam.</p>
+            </div>
+            <div class="card">
+                <h3>Respeito ao Bioma</h3>
+                <p>Preservação rigorosa de áreas de proteção permanente (APPs) e corredores ecológicos que garantem a convivência harmônica entre fauna e flora.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="interactive-section" id="impacto">
+        <h2>Nosso Compromisso em Números</h2>
+        <p>Acompanhe em tempo real o impacto positivo das práticas agrícolas sustentáveis simuladas em nossa rede:</p>
+        
+        <div class="counter-box">
+            <div class="counter-item">
+                <span class="number" id="arvoresCounter">0</span>
+                Árvores Preservadas
+            </div>
+            <div class="counter-item">
+                <span class="number" id="aguaCounter">0</span>
+                Litros de Água Economizados
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroForte Sustentável. Produzindo com consciência, alimentando o mundo.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
